@@ -3,6 +3,7 @@ function shortcut(s1, s2) {
 	if (s1.length === 0 || s2.length === 0) {
     return '';
   }
+	
 
   // Return the initial letters of the input strings
   return s1[0].toUpperCase() + s2[0].toLowerCase();
